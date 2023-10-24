@@ -411,3 +411,18 @@
     --chakra-colors-chakra-subtle-bg: var(--chakra-colors-gray-700);
     --chakra-colors-chakra-placeholder-color: var(--chakra-colors-whiteAlpha-400);
 }
+.clearfix{
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+*{
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+img{
+    max-width: 100%;
+}

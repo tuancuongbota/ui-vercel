@@ -1,98 +1,722 @@
-.chakra-bustle {
-    overflow: hidden;
-    color: #ddd;
-    background-image: linear-gradient(to bottom, #020c17 1200px, rgba(0, 0, 0, 0.98) 50%, #020c17 100%);
-    .chakra-bustle-bg {
-        height: calc(100vw / 1.5);
-        min-height: 500px;
-        width: 100vw;
-        position: relative;
-        .chakra-bustle-back {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #020c17 90%);
-        }
-    }
-    .chakra-bustle-transform {
-        transform: none;
-        .chakra-stack {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-            padding-inline-end: 0px;
-            padding-top: 120px;
-            padding-bottom: 120px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 2;
-            text-align: center;
-          
-            .chakra-stack-title {
-              display: flex;
-              align-items: baseline;
-              flex-direction: row;
-              justify-content: center;
-          
-              h1 {
-                font-weight: var(--chakra-fontWeights-bold);
-                line-height: 1.33;
-                font-size: 60px;
-                font-family: WindSong;
-                text-shadow: 10px 10px #000;
-                z-index: 1;
-                position: relative;
-                margin-left: 0px;
-                @media screen and (min-width: 30em){
-                    font-size: 86px;
-                }
-                @media screen and (min-width: 48em){
-                    line-height: 1.2;
-                    font-size: 100px;
-                    margin-left: -100px;
-                }
-                @media screen and (min-width: 62em){
-                    font-size: 140px;
-                }
-                @media screen and (min-width: 80em){
-                    font-size: 180px;
-                    margin-left: -250px;
-                }
-              }
-            }
-            .chakra-stack-titles {
-                margin-top: 0.5rem;
-              
-                h2 {
-                  line-height: 1.33;
-                  text-align: center;
-                  font-size: 30px;
-                  font-family: Phudu;
-                  font-weight: 100;
-                  text-shadow: 5px 5px #000;
-                  margin-left: 0px;
-                  @media screen and (min-width: 30em){
-                    font-size: 43px;
-                  }
-                  @media screen and (min-width: 48em){
-                    line-height: 1.2;
-                    font-size: 50px;
-                    margin-left: 200px;
-                  }
-                  @media screen and (min-width: 62em){
-                    font-size: 70px;
-                    margin-left: 300px;
-                  }
-                  @media screen and (min-width: 80em){
-                    font-size: 90px;
-                  }
-                }
-              }
-              
-          }
-    }
-      
+.css-1q02ksg {
+  overflow: hidden;
+  color: #ddd;
+  background-image: linear-gradient(to bottom, #020c17 1200px, rgba(0, 0, 0, 0.98) 50%, #020c17 100%);
+  .css-1yiqmvn {
+    height: calc(100vw / 1.5);
+    min-height: 500px;
+    width: 100vw;
+    position: relative;
+ }
 }
 
+.css-1hmw9ex {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #020c17 90%);
+}
+.css-1xndcul {
+  margin-top: var(--chakra-space-6);
+  font-style: italic;
+  font-weight: var(--chakra-fontWeights-bold);
+}
+.css-dsxjnd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+  -webkit-padding-end: 0px;
+  padding-inline-end: 0px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-dsxjnd {
+    -webkit-padding-start: 64px;
+    padding-inline-start: 64px;
+    -webkit-padding-end: 64px;
+    padding-inline-end: 64px;
+  }
+}
+
+.css-9f7kac {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: var(--chakra-space-16);
+    margin-inline-start: var(--chakra-space-16);
+  }
+}
+
+.css-1a4i7cx {
+  font-weight: var(--chakra-fontWeights-bold);
+  line-height: 1.33;
+  font-size: 60px;
+  font-family: WindSong;
+  text-shadow: 10px 10px #000;
+  z-index: 1;
+  position: relative;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 30em) {
+  .css-1a4i7cx {
+    font-size: 86px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-1a4i7cx {
+    line-height: 1.2;
+    font-size: 100px;
+    margin-left: -100px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .css-1a4i7cx {
+    font-size: 140px;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .css-1a4i7cx {
+    font-size: 180px;
+    margin-left: -250px;
+  }
+}
+
+.css-1trqgnq {
+  line-height: 1.33;
+  text-align: center;
+  font-size: 30px;
+  font-family: Phudu;
+  font-weight: 100;
+  text-shadow: 5px 5px #000;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 30em) {
+  .css-1trqgnq {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-1trqgnq {
+    line-height: 1.2;
+    font-size: 50px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 62em) {
+  .css-1trqgnq {
+    font-size: 70px;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .css-1trqgnq {
+    font-size: 90px;
+  }
+}
+
+.css-k1dh30 {
+  text-align: center;
+  max-width: 900px;
+  z-index: 1;
+  margin: 0 auto;
+  -webkit-padding-start: var(--chakra-space-6);
+  padding-inline-start: var(--chakra-space-6);
+  -webkit-padding-end: var(--chakra-space-6);
+  padding-inline-end: var(--chakra-space-6);
+}
+
+.css-1dpqnf9 {
+  font-weight: var(--chakra-fontWeights-bold);
+  line-height: 1.33;
+  text-align: center;
+  font-size: 60px;
+  font-family: Big Shoulders Stencil Text;
+}
+
+@media screen and (min-width: 48em) {
+  .css-1dpqnf9 {
+    line-height: 1.2;
+  }
+}
+
+.css-umoeaw {
+  margin-top: var(--chakra-space-6);
+  font-style: italic;
+  position: relative;
+  -webkit-padding-start: var(--chakra-space-4);
+  padding-inline-start: var(--chakra-space-4);
+  -webkit-padding-end: var(--chakra-space-4);
+  padding-inline-end: var(--chakra-space-4);
+  padding-top: var(--chakra-space-4);
+  padding-bottom: var(--chakra-space-4);
+  font-weight: var(--chakra-fontWeights-bold);
+
+  &::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: " ";
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-top: 6px double #ddd;
+    border-left: 6px double #ddd;
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    content: " ";
+    display: block;
+    width: 36px;
+    height: 36px;
+    border-bottom: 6px double #ddd;
+    border-right: 6px double #ddd;
+  }
+}
+
+.css-kjiv5n {
+  font-weight: var(--chakra-fontWeights-bold);
+  line-height: 1.33;
+  margin-top: var(--chakra-space-12);
+  text-align: center;
+  font-size: 40px;
+  font-family: Signika;
+}
+
+@media screen and (min-width: 48em) {
+  .css-kjiv5n {
+    line-height: 1.2;
+  }
+}
+
+.css-1o07fwd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+  margin: 48px auto 0 auto;
+  text-align: justify;
+  -webkit-padding-start: var(--chakra-space-6);
+  padding-inline-start: var(--chakra-space-6);
+  -webkit-padding-end: var(--chakra-space-6);
+  padding-inline-end: var(--chakra-space-6);
+
+  > * {
+    margin-top: var(--chakra-space-4);
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-1dklj6k {
+  font-family: var(--chakra-fonts-heading);
+  font-weight: var(--chakra-fontWeights-bold);
+  font-size: var(--chakra-fontSizes-3xl);
+  line-height: 1.33;
+}
+
+@media screen and (min-width: 48em) {
+  .css-1dklj6k {
+    font-size: var(--chakra-fontSizes-4xl);
+    line-height: 1.2;
+  }
+}
+
+.css-fzvibh {
+  display: grid;
+  grid-gap: var(--chakra-space-4);
+  grid-template-columns: 1fr 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: var(--chakra-space-4);
+  padding-bottom: var(--chakra-space-4);
+}
+
+.css-n21gh5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-wd8hou {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: var(--chakra-space-1);
+}
+
+.css-1wkp8go {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.css-13s308v {
+  font-size: 14px;
+  text-align: right;
+  font-style: italic;
+}
+
+.css-8nthb6 {
+  -webkit-padding-start: var(--chakra-space-4);
+  padding-inline-start: var(--chakra-space-4);
+  -webkit-padding-end: var(--chakra-space-4);
+  padding-inline-end: var(--chakra-space-4);
+}
+
+.css-15d4x2f {
+  position: relative;
+  font-size: 16px;
+  font-weight: var(--chakra-fontWeights-bold);
+  font-family: Mynerve;
+  display: inline;
+
+  &::before {
+    content: "\201c";
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    left: -25px;
+    top: -15px;
+  }
+
+  &::after {
+    content: "\201d";
+    font-size: 50px;
+    display: block;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+  }
+}
+
+@media screen and (min-width: 48em) {
+  .css-15d4x2f {
+    font-size: 26px;
+  }
+}
+
+.css-3ir41n {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: var(--chakra-space-6);
+  padding-bottom: var(--chakra-space-6);
+  max-width: 1440px;
+  margin: 0 auto;
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-wayys6 {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.css-17jzmug {
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+}
+
+.css-bpatxa {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: justify;
+  -webkit-padding-start: var(--chakra-space-6);
+  padding-inline-start: var(--chakra-space-6);
+  -webkit-padding-end: var(--chakra-space-6);
+  padding-inline-end: var(--chakra-space-6);
+
+  > *:not(style) {
+    margin-top: var(--chakra-space-4);
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-vkn65q {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: var(--chakra-space-4);
+  padding-bottom: var(--chakra-space-4);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-1ncscnu {
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.css-1vu8bjg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: var(--chakra-space-12);
+  padding-bottom: var(--chakra-space-12);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-138u0vj {
+  display: grid;
+  grid-gap: var(--chakra-space-4);
+  grid-template-columns: 1fr 1fr;
+  [data-aos=fade-up-right]{
+    z-index: 1;
+  }
+}
+
+.css-eyu9gn {
+  border-radius: 4px;
+  margin-top: var(--chakra-space-10);
+  z-index: 2;
+  box-shadow: #000 0px 8px 24px;
+  position: relative;
+  transform: translateX(0px) rotate(-8deg) translateZ(0px);
+}
+
+.css-11wvndf {
+  border-radius: 4px;
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+.css-1k9oxz7 {
+  padding-top: var(--chakra-space-8);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.css-1m1l74j {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: var(--chakra-space-12);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: var(--chakra-space-4);
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-wdvojy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: var(--chakra-space-16);
+  padding-bottom: var(--chakra-space-4);
+  gap: var(--chakra-space-4);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-1i8mhvs {
+  border-radius: 4px;
+  box-shadow: #000 0 8px 24px;
+}
+
+.css-3k6px3 {
+  text-align: right;
+  font-style: italic;
+}
+
+.css-gboczk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: var(--chakra-space-8);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0.5rem;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-722v25 {
+  font-weight: var(--chakra-fontWeights-bold);
+}
+
+.css-v6hpyw {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 900px;
+  position: relative;
+  z-index: 1;
+  margin: 16px auto 0 auto;
+  text-align: justify;
+  -webkit-padding-start: var(--chakra-space-6);
+  padding-inline-start: var(--chakra-space-6);
+  -webkit-padding-end: var(--chakra-space-6);
+  padding-inline-end: var(--chakra-space-6);
+
+  > *:not(style) {
+    margin-top: var(--chakra-space-4);
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+
+.css-d7nvhw {
+  font-weight: var(--chakra-fontWeights-bold);
+  font-size: var(--chakra-fontSizes-3xl);
+  line-height: 1.33;
+  font-family: Sansita Swashed;
+}
+
+@media screen and (min-width: 48em) {
+  .css-d7nvhw {
+    font-size: var(--chakra-fontSizes-4xl);
+    line-height: 1.2;
+  }
+}
+
+.css-1btehal {
+  display: grid;
+  grid-gap: var(--chakra-space-6);
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 30em) {
+  .css-1btehal {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.css-won06e {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  box-shadow: #000 0px 8px 30px;
+
+  &:hover, &[data-hover] {
+    box-shadow: #000 0px 8px 40px;
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+}
+
+.css-6uxxj6 {
+  width: 100%;
+  border-radius: 4px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.css-4eunz1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: var(--chakra-space-3);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 70%);
+
+  > *:not(style) ~ *:not(style) {
+    margin-top: 0px;
+    -webkit-margin-end: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    -webkit-margin-start: 0px;
+    margin-inline-start: 0px;
+  }
+}
+.css-wtpnzt {
+  border-radius: 4px;
+}
+.css-1jkqms3 {
+  font-family: Signika;
+  font-size: 18px;
+  line-height: 1.2;
+}
