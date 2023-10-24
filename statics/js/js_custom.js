@@ -22,16 +22,19 @@ $(document).ready(function () {
      });
      if($('.cube-swiper').length){
         const mySwiper = new Swiper('.cube-swiper', {
-            effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
+            effect: "creative",
+            pagination: {
+               clickable: !0
+            },
+            creativeEffect: {
+               prev: {
+                  shadow: !0,
+                  translate: ["-120%", 0, -500]
+               },
+               next: {
+                  shadow: !0,
+                  translate: ["120%", 0, -500]
+               }
             },
             autoplay: {
                 delay: 2500,
@@ -44,23 +47,36 @@ $(document).ready(function () {
     }
     if($('.carousel-swiper').length){
         const carousel_swiper = new Swiper('.carousel-swiper', {
+            initialSlide: 0,
+            slidesPerView: 1.5,
+            grabCursor: !0,
+            centeredSlides: !0,
             effect: "coverflow",
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: "auto",
-            coverflowEffect: {
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
+            pagination: {
+               clickable: !0
             },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-              },
+            coverflowEffect: {
+               rotate: 40,
+               depth: 50,
+               modifier: 1,
+               slideShadows: !0
+            },
             pagination: {
                 el: '.swiper-pagination',
+            },
+        });
+    }
+    if($('.card-swiper').length){
+        const card_swiper = new Swiper('.card-swiper', {
+            grabCursor: !0,
+            effect: "cards",
+            initialSlide: 2,
+            pagination: {
+               clickable: !0
+            },
+            cardsEffect: {
+               slideShadows: !1,
+               perSlideRotate: 10
             },
         });
     }

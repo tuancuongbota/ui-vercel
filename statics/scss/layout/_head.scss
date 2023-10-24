@@ -521,6 +521,9 @@
   padding-top: var(--chakra-space-8);
   max-width: 1440px;
   margin: 0 auto;
+  .swiper-wrapper {
+    height: auto;
+  }
 }
 
 .css-1m1l74j {

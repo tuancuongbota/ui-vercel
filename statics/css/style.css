@@ -893,6 +893,7 @@ button.swiper-pagination-bullet { border: none; margin: 0; padding: 0; -webkit-b
 .css-11wvndf { border-radius: 4px; -webkit-transform: rotate(8deg); transform: rotate(8deg); }
 
 .css-1k9oxz7 { padding-top: var(--chakra-space-8); max-width: 1440px; margin: 0 auto; }
+.css-1k9oxz7 .swiper-wrapper { height: auto; }
 
 .css-1m1l74j { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; margin-top: var(--chakra-space-12); }
 .css-1m1l74j > *:not(style) ~ *:not(style) { margin-top: var(--chakra-space-4); -webkit-margin-end: 0px; -moz-margin-end: 0px; margin-inline-end: 0px; margin-bottom: 0px; -webkit-margin-start: 0px; -moz-margin-start: 0px; margin-inline-start: 0px; }
