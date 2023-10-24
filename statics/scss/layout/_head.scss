@@ -1,0 +1,98 @@
+.chakra-bustle {
+    overflow: hidden;
+    color: #ddd;
+    background-image: linear-gradient(to bottom, #020c17 1200px, rgba(0, 0, 0, 0.98) 50%, #020c17 100%);
+    .chakra-bustle-bg {
+        height: calc(100vw / 1.5);
+        min-height: 500px;
+        width: 100vw;
+        position: relative;
+        .chakra-bustle-back {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #020c17 90%);
+        }
+    }
+    .chakra-bustle-transform {
+        transform: none;
+        .chakra-stack {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            padding-inline-end: 0px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+          
+            .chakra-stack-title {
+              display: flex;
+              align-items: baseline;
+              flex-direction: row;
+              justify-content: center;
+          
+              h1 {
+                font-weight: var(--chakra-fontWeights-bold);
+                line-height: 1.33;
+                font-size: 60px;
+                font-family: WindSong;
+                text-shadow: 10px 10px #000;
+                z-index: 1;
+                position: relative;
+                margin-left: 0px;
+                @media screen and (min-width: 30em){
+                    font-size: 86px;
+                }
+                @media screen and (min-width: 48em){
+                    line-height: 1.2;
+                    font-size: 100px;
+                    margin-left: -100px;
+                }
+                @media screen and (min-width: 62em){
+                    font-size: 140px;
+                }
+                @media screen and (min-width: 80em){
+                    font-size: 180px;
+                    margin-left: -250px;
+                }
+              }
+            }
+            .chakra-stack-titles {
+                margin-top: 0.5rem;
+              
+                h2 {
+                  line-height: 1.33;
+                  text-align: center;
+                  font-size: 30px;
+                  font-family: Phudu;
+                  font-weight: 100;
+                  text-shadow: 5px 5px #000;
+                  margin-left: 0px;
+                  @media screen and (min-width: 30em){
+                    font-size: 43px;
+                  }
+                  @media screen and (min-width: 48em){
+                    line-height: 1.2;
+                    font-size: 50px;
+                    margin-left: 200px;
+                  }
+                  @media screen and (min-width: 62em){
+                    font-size: 70px;
+                    margin-left: 300px;
+                  }
+                  @media screen and (min-width: 80em){
+                    font-size: 90px;
+                  }
+                }
+              }
+              
+          }
+    }
+      
+}
+
