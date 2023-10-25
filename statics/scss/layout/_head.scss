@@ -1,7 +1,7 @@
 .css-1q02ksg {
   overflow: hidden;
-  color: #ddd;
-  background-image: linear-gradient(to bottom, #020c17 1200px, rgba(0, 0, 0, 0.98) 50%, #020c17 100%);
+  color: #000;
+  background-color: #f4f1ec;
   .css-1yiqmvn {
     height: calc(100vw / 1.5);
     min-height: 500px;
@@ -43,6 +43,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 2;
+  color: #ddd;
 
   > *:not(style) ~ *:not(style) {
     margin-top: 0.5rem;
@@ -182,6 +183,7 @@
   text-align: center;
   font-size: 60px;
   font-family: Big Shoulders Stencil Text;
+  color: #ddd;
 }
 
 @media screen and (min-width: 48em) {
@@ -722,4 +724,5 @@
   font-family: Signika;
   font-size: 18px;
   line-height: 1.2;
+  color: #ddd;
 }

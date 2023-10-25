@@ -281,7 +281,7 @@ select::-ms-expand {
 }
 .chakra-ui-transform{
     &.aos-animate{
-        transform: translateY(-150.158px) translateZ(0px) !important; 
+        transform: translateY(-85px) translateZ(0px) !important; 
     }
 }
 .chakra-stack-rotate{
@@ -297,7 +297,7 @@ select::-ms-expand {
   }
   
   .carousel-swiper .swiper-pagination-bullet {
-    background-color: #ddd !important;
+    background-color: #000 !important;
   }
   
   .pagination-slider .swiper-pagination-bullet {
